@@ -1,1 +1,1 @@
-# <a href=https://udidios.cf/> https://udidios.cf </a> 
+# <a href=https://udidios.cf/> udidios.cf </a> 
