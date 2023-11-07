@@ -4,6 +4,10 @@ body.result.plus = {
       "isTutorialCompleted": false
     }
 body.result.permissions.until = "2099-12-01T19:15:32+00:00"
+body.result.subscription.autoRenewable.product.plus = "true"
+body.result.subscription.autoRenewable.product.debug = "true"
+body.result.subscription.autoRenewable.finished = "false"
+body.result.subscription.autoRenewable.expires = "2099-12-01T19:15:32+00:00"
 body.result.permissions.values = [
         "landing-play",
         "feed-play",
