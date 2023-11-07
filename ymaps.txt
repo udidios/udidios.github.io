@@ -7,4 +7,4 @@
 http-response https://api.music.yandex.net/account/status.* script-path= https://raw.githubusercontent.com/udidios/udidios.github.io/main/ymaps.js, requires-body=true, timeout=10, tag= Я.Музыка, img-url=https://i.imgur.com/PzyaHTQ.jpg
 
 [Mitm]
-hostname = %APPEND%api.music.yandex.net
+hostname = %APPEND%music-stable-back-vla-48.vla.yp-c.yandex.net
