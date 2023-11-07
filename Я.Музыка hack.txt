@@ -1,0 +1,10 @@
+#!name = Я.Музыка hack
+#!desc = Need to be enabled: always  │  Subscription needed: ✖️
+#!icon = https://i.imgur.com/PzyaHTQ.jpg
+#!date = 11.09.2023
+
+[Script]
+http-response https://api.music.yandex.net/account/status.* script-path= https://www.dropbox.com/scl/fi/6459lujizj1y3uoz06mk6/YandexMusic.js?rlkey=ka7e0amjt178v4ufz0i89bktt&dl=1, requires-body=true, timeout=10, tag= Я.Музыка, img-url=https://i.imgur.com/PzyaHTQ.jpg
+
+[Mitm]
+hostname = %APPEND%api.music.yandex.net
