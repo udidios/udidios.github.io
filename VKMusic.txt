@@ -4,7 +4,7 @@
 #!date = 16.10.2023
 
 [Script]
-http-response https://api.moosic.io/user/info script-path= https://raw.githubusercontent.com/udidios/udidios.github.io/main/VKMusic.js, requires-body=true, timeout=10, tag=VKMusic, img-url=https://i.imgur.com/FVMFhTp.jpg
+http-response https://api.moosic.io/user/info script-path=https://raw.githubusercontent.com/udidios/udidios.github.io/main/VKMusic.js, requires-body=true, timeout=10, tag=VKMusic, img-url=https://i.imgur.com/FVMFhTp.jpg
 
 [Mitm]
 hostname = %APPEND%api.moosic.io
