@@ -1,5 +1,5 @@
-#!name =Я.Навигатор hack
-#!desc = Need to be enabled: always  │  Subscription needed: ✖️
+#!name = Я.Навигатор📵no subscribe❤️‍🔥 
+#!desc = Необходимо включить: всегда │ Требуется подписка: ✖️
 #!icon = https://i.imgur.com/iMtkuVs.jpg
 #!date = 11.11.2023
 
