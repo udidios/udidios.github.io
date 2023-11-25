@@ -73,14 +73,9 @@ body.result.subscription = {
 }
 var names = "Яндекс Навигатор";
 var alert = "Premium активирован";
-$notification.post(names, alert, body);
+$notification.post(names, + "hhhh" + alert, body);
 $done({body: JSON.stringify(body)});
 if(typeof $notification.post != "undefined") {
-			$notification.post(names, alert)
-		}
-function err(errormsg) {
-		if(typeof $notification.post != "undefined") {
-			$notification.post("Error","",errormsg)
-		}
-		$done()
-	} 
+			$notification.post(names, alert, body);
+					   }
+$done()
