@@ -77,4 +77,3 @@ $done({body: JSON.stringify(body)});
 if(typeof $notification.post != "undefined") {
 			$notification.post(names, alert, body);
 					   }
-$done()
