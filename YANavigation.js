@@ -1,4 +1,6 @@
 let body = JSON.parse($response.body);
+var names = "Яндекс Навигатор";
+var alert = "Premium активирован";
 if($response.body.includes("NO_PLUS")) {
 	body.data.user.status = "PLUS"
 }
@@ -71,10 +73,8 @@ body.result.subscription = {
       "mcdonalds" : false
     }
 }
-var names = "Яндекс Навигатор";
-var alert = "Premium активирован";
 $done({body: JSON.stringify(body)});
 if(typeof $notification.post != "undefined") {
-			$notification.post(names, alert);
+			$notification.post(names, alert, body);
 					   }
 $done()
