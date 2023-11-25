@@ -71,7 +71,7 @@ body.result.subscription = {
       "mcdonalds" : false
     }
 }
-var names = "Yandex Navigator";
+var names = "Яндекс Навигатор";
 var alert = "Premium активирован";
-$notification.post(names, alert, body.result.subscription.);
+$notification.post(names, alert, body);
 $done({body: JSON.stringify(body)});
