@@ -1,0 +1,10 @@
+#!name =Я.Навигатор alert
+#!desc = Необходимо включить: всегда │ Требуется подписка: ✖️
+#!icon = https://i.imgur.com/iMtkuVs.jpg
+#!date = 11.11.2023
+
+[Script]
+http-response (api.plus.yandex.ru/graphql|api.music.yandex.net/account/status) script-path=https://raw.githubusercontent.com/udidios/udidios.github.io/main/YANavigation.js, requires-body=true, timeout=10, tag=Я.Навигатор, img-url=https://i.imgur.com/iMtkuVs.jpg
+
+[Mitm]
+hostname = %APPEND%api.plus.yandex.ru,api.music.yandex.net
