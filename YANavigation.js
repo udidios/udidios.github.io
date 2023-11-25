@@ -73,5 +73,5 @@ body.result.subscription = {
 }
 var names = "Yandex Navigator";
 var alert = "Premium активирован";
-$notification.post(names, alert, body);
+$notification.post(names, alert);
 $done({body: JSON.stringify(body)});
