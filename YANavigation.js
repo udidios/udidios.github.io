@@ -1,10 +1,10 @@
-
 let body = JSON.parse($response.body);
-var names = "Яндекс Навигатор";
-var alert = "Premium активирован";
 
 if($response.body.includes("NO_PLUS")) {
     body.data.user.status = "PLUS";
+    var names = "Яндекс Навигатор";
+    var alert = "Premium активирован";
+    $notification.post(names, alert, JSON.stringify(body));
 } else {
     body.result.permissions = {
         "until" : "2099-12-31T23:59:59+00:00",
@@ -75,5 +75,4 @@ if($response.body.includes("NO_PLUS")) {
     };
 }
 
-$notification.post(names, alert, JSON.stringify(body));
 $done({body: JSON.stringify(body)});
