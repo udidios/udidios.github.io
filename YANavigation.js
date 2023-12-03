@@ -2,7 +2,7 @@ let body = JSON.parse($response.body);
 
 if($response.body.includes("NO_PLUS")) {
     body.data.user.status = "PLUS";
-    var names = "Яндекс Навигатор";
+    var names = "Яндекс Музыка или Яндекс Навигатор";
     var alert = "Premium активирован";
     $notification.post(names, alert, JSON.stringify(body.data.user.status));
 } else {
