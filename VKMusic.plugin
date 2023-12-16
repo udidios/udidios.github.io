@@ -1,0 +1,10 @@
+#!name =VKMusic📵no subscribe❤️‍🔥
+#!desc = Необходимо включить: Всегда │ Требуется подписка: ✖️
+#!icon = https://i.imgur.com/FVMFhTp.jpg
+#!date = 16.10.2023
+
+[Script]
+http-response https://api.moosic.io/user/info script-path=https://raw.githubusercontent.com/udidios/udidios.github.io/main/VKMusicAlert.js, requires-body=true, timeout=10, tag=VKMusic, img-url=https://i.imgur.com/FVMFhTp.jpg
+
+[Mitm]
+hostname = %APPEND%api.moosic.io
