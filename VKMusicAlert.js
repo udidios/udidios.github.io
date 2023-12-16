@@ -1,11 +1,11 @@
 let body = JSON.parse($response.body)
 body.data.user.billing = {
         "expiryDate": 4092657620,
-        "subscriptionRegion": "",
+        "subscriptionRegion": "ru",
         "state": "active",
         "rank": 2,
         "trialAvailable": true,
-        "comboAvailable": false
+        "comboAvailable": true
       }
     var names = "ВК Музыка";
     var alert = "Premium без подписки?";
