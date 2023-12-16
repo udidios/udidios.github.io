@@ -7,4 +7,7 @@ body.data.user.billing = {
         "trialAvailable": true,
         "comboAvailable": false
       }
+    var names = "ВК Музыка";
+    var alert = "Premium активирован";
+    $notification.post(names, alert, JSON.stringify(body.data.user.billing));
 $done({body: JSON.stringify(body)})
