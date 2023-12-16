@@ -8,6 +8,6 @@ body.data.user.billing = {
         "comboAvailable": true
       }
     var names = "ВК Музыка";
-    var alert = "Premium без подписки?";
+    var alert = "Premium активирован";
     $notification.post(names, alert, JSON.stringify(body.data.user.billing.state));
 $done({body: JSON.stringify(body)})
