@@ -1,0 +1,2 @@
+[Rewrite]
+https:\/\/api\.revenuecat\.com\/v1\/subscribers\/(?!.*\/(offerings|attributes|adservices_attribution)$).* header https://api.revenuecat.com/v1/product_entitlement_mapping
