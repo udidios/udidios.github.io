@@ -1,9 +1,9 @@
-#!name = Buy-iTunes 2
+#!name = Buy-iTunes universal
 #!desc = Subscription needed: ✖️
 #!icon = https://i.imgur.com/NkODnZN.png
 
 [Script]
-http-response buy.itunes.apple.com/verifyReceipt script-path=https://raw.githubusercontent.com/udidios/udidios.github.io/main/Buy-iTunes-universal.js, requires-body=true, timeout=10, tag=BuyItunes
+http-response buy.itunes.apple.com/verifyReceipt script-path=https://raw.githubusercontent.com/udidios/udidios.github.io/main/Buy-iTunes-universal.js?token=GHSAT0AAAAAACLV42IMT64FJTDNRCTQZI2IZML462A, requires-body=true, timeout=10, tag=BuyItunes
 
 [Mitm]
 hostname = %APPEND%buy.itunes.apple.com
