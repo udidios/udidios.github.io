@@ -18,8 +18,10 @@ function uploadFile() {
           var results = document.getElementById('results');
           results.appendChild(document.createTextNode('File uploaded!'));
           console.log(response);
+          alert(response);
         }).catch(function(error) {
           console.error(error);
+          alert(error);
         });
       return false;
     }
