@@ -518,7 +518,7 @@ function showPlayer(num, id) {
                 console.log(error);
             });
     } else if (num == 8) {
-        document.getElementById('Content-img').innerHTML = '<iframe class="iframe" src="//militorys.net/van/' + id + '" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" oallowfullscreen="" msallowfullscreen="" seamless></iframe>';
+        document.getElementById('Content-img').innerHTML = '<iframe class="iframe" src="//api.kinogram.best/embed/kp/' + id + '?s=1&e=1" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" oallowfullscreen="" msallowfullscreen="" seamless></iframe>';
     } else if (num == 9) {
         fetch('http://kodikapi.com/search?token=0c9a72daf8747f4eacc2beba552b40ef&limit=100&with_episodes=true&imdb_id=' + id)
             .then(res => res.json())
@@ -616,7 +616,7 @@ function apiItem(id) {
                     <a onclick="showPlayer(6,\'' + obj['imdb_id'] + '\')">Плеер #6 <span style="font-size:6px">(HDRezha)</span></a>\
                     <a onclick="showPlayer(7,\'' + obj['imdb_id'] + '\')">Плеер #7 <span style="font-size:6px">(VideoCDN)</span></a>\
                     <a onclick="showPlayer(9,\'' + obj['imdb_id'] + '\')">Плеер #8 <span style="font-size:6px">(KodikBD)</span></a>\
-                    <a onclick="showPlayer(8,\'' + obj['kinopoisk_id'] + '\')">Плеер #9 <span style="font-size:6px">(Militorys)</span></a>\
+                    <a onclick="showPlayer(8,\'' + obj['kinopoisk_id'] + '\')">Плеер #9 <span style="font-size:6px">(kinobest)</span></a>\
                 </div>\
                 <input type="checkbox" class="show_tr" id="tr" style="display:none">\
                 <label for="tr" id="show-player" >Показать трейлер</label>\
