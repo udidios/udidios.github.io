@@ -520,6 +520,8 @@ function showPlayer(num, id) {
     } else if (num == 8) {
         document.getElementById('Content-img').innerHTML = '<iframe class="iframe" src="https://api.embr.ws/embed/imdb/' + id + '?s=1&e=1" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" oallowfullscreen="" msallowfullscreen="" seamless></iframe>';
     } else if (num == 9) {
+        document.getElementById('Content-img').innerHTML = '<iframe class="iframe" src="https://udidios.github.io/udid/?q=' + id + '?s=1&e=1" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" oallowfullscreen="" msallowfullscreen="" seamless></iframe>';
+    } else if (num == 10) {
         fetch('https://kinobox.tv/api/players/main?kinopoisk=' + id)
             .then(res => res.json())
             .then(function (obj) {
