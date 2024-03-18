@@ -490,7 +490,7 @@ function apiTV() {
 
 function showPlayer(num, id) {
     if (num == 1) {
-        document.getElementById('Content-img').innerHTML = '<iframe class="iframe" src="https://api.embr.ws/embed/imdb/' + id + '" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" oallowfullscreen="" msallowfullscreen="" seamless></iframe>';
+        document.getElementById('Content-img').innerHTML = '<iframe class="iframe" src="//api.kinogram.best/embed/kp/' + id + '" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" oallowfullscreen="" msallowfullscreen="" seamless></iframe>';
     } else if (num == 2) {
         document.getElementById('Content-img').innerHTML = '<iframe class="iframe" src="https://mute-value.cdnmovies-stream.online/imdb/' + id + '/iframe?domain=kinobox.tv" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" oallowfullscreen="" msallowfullscreen="" seamless></iframe>';
     } else if (num == 3) {
@@ -518,7 +518,7 @@ function showPlayer(num, id) {
                 console.log(error);
             });
     } else if (num == 8) {
-        document.getElementById('Content-img').innerHTML = '<iframe class="iframe" src="//api.kinogram.best/embed/kp/' + id + '?s=1&e=1" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" oallowfullscreen="" msallowfullscreen="" seamless></iframe>';
+        document.getElementById('Content-img').innerHTML = '<iframe class="iframe" src="https://api.embr.ws/embed/imdb/' + id + '?s=1&e=1" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" oallowfullscreen="" msallowfullscreen="" seamless></iframe>';
     } else if (num == 9) {
         fetch('http://kodikapi.com/search?token=0c9a72daf8747f4eacc2beba552b40ef&limit=100&with_episodes=true&imdb_id=' + id)
             .then(res => res.json())
