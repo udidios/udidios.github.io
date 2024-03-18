@@ -615,8 +615,8 @@ function apiItem(id) {
                     <a onclick="showPlayer(5,\'' + obj['kinopoisk_id'] + '\')">Плеер #5 <span style="font-size:6px">(Alloha)</span></a>\
                     <a onclick="showPlayer(6,\'' + obj['imdb_id'] + '\')">Плеер #6 <span style="font-size:6px">(HDRezha)</span></a>\
                     <a onclick="showPlayer(7,\'' + obj['imdb_id'] + '\')">Плеер #7 <span style="font-size:6px">(VideoCDN)</span></a>\
-                    <a onclick="showPlayer(9,\'' + obj['kinopoisk_id'] + '\')">Плеер #8 <span style="font-size:6px">(KodikBD)</span></a>\
-                    <a onclick="showPlayer(8,\'' + obj['imdb_id'] + '\')">Плеер #9 <span style="font-size:6px">(kinobest)</span></a>\
+                    <a onclick="showPlayer(8,\'' + obj['imdb_id'] + '\')">Плеер #8 <span style="font-size:6px">(KodikBD)</span></a>\
+                    <a onclick="showPlayer(9,\'' + obj['kinopoisk_id'] + '\')">Плеер #9 <span style="font-size:6px">(kinobest)</span></a>\
                 </div>\
                 <input type="checkbox" class="show_tr" id="tr" style="display:none">\
                 <label for="tr" id="show-player" >Показать трейлер</label>\
