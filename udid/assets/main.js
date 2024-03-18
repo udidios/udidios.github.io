@@ -520,7 +520,7 @@ function showPlayer(num, id) {
     } else if (num == 8) {
         document.getElementById('Content-img').innerHTML = '<iframe class="iframe" src="https://api.embr.ws/embed/imdb/' + id + '?s=1&e=1" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" oallowfullscreen="" msallowfullscreen="" seamless></iframe>';
     } else if (num == 9) {
-        fetch('http://kodikapi.com/search?token=0c9a72daf8747f4eacc2beba552b40ef&limit=100&with_episodes=true&imdb_id=' + id)
+        fetch('https://kinobox.tv/api/players/main?kinopoisk=' + id)
             .then(res => res.json())
             .then(function (obj) {
                 document.getElementById('Content-img').innerHTML = '<iframe class="iframe" src="' + obj['results'][0]['link'] + '" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" oallowfullscreen="" msallowfullscreen="" seamless></iframe>';
@@ -615,7 +615,7 @@ function apiItem(id) {
                     <a onclick="showPlayer(5,\'' + obj['kinopoisk_id'] + '\')">Плеер #5 <span style="font-size:6px">(Alloha)</span></a>\
                     <a onclick="showPlayer(6,\'' + obj['imdb_id'] + '\')">Плеер #6 <span style="font-size:6px">(HDRezha)</span></a>\
                     <a onclick="showPlayer(7,\'' + obj['imdb_id'] + '\')">Плеер #7 <span style="font-size:6px">(VideoCDN)</span></a>\
-                    <a onclick="showPlayer(9,\'' + obj['imdb_id'] + '\')">Плеер #8 <span style="font-size:6px">(KodikBD)</span></a>\
+                    <a onclick="showPlayer(9,\'' + obj['kinopoisk_id'] + '\')">Плеер #8 <span style="font-size:6px">(KodikBD)</span></a>\
                     <a onclick="showPlayer(8,\'' + obj['imdb_id'] + '\')">Плеер #9 <span style="font-size:6px">(kinobest)</span></a>\
                 </div>\
                 <input type="checkbox" class="show_tr" id="tr" style="display:none">\
