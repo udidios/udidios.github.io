@@ -608,7 +608,7 @@ function apiItem(id) {
                 <input type="checkbox" class="show_pl" id="pl" style="display:none">\
                 <label for="pl" id="show-player" >Показать плеер</label>\
                 <div id="show_pl" class="dropdown-content" style="text-align: left;">\
-                    <a onclick="showPlayer(1,\'' + obj['imdb_id'] + '\')">Плеер #1 <span style="font-size:6px">(Callaps)</span></a>\
+                    <a onclick="showPlayer(1,\'' + obj['kinopoisk_id'] + '\')">Плеер #1 <span style="font-size:6px">(Callaps)</span></a>\
                     <a onclick="showPlayer(2,\'' + obj['imdb_id'] + '\')">Плеер #2 <span style="font-size:6px">(CDNmovies)</span></a>\
                     <a onclick="showPlayer(3,\'' + obj['kinopoisk_id'] + '\')">Плеер #3 <span style="font-size:6px">(DBHDVB)</span></a>\
                     <a onclick="showPlayer(4,\'' + obj['kinopoisk_id'] + '\')">Плеер #4 <span style="font-size:6px">(VideoDB)</span></a>\
@@ -616,7 +616,7 @@ function apiItem(id) {
                     <a onclick="showPlayer(6,\'' + obj['imdb_id'] + '\')">Плеер #6 <span style="font-size:6px">(HDRezha)</span></a>\
                     <a onclick="showPlayer(7,\'' + obj['imdb_id'] + '\')">Плеер #7 <span style="font-size:6px">(VideoCDN)</span></a>\
                     <a onclick="showPlayer(9,\'' + obj['imdb_id'] + '\')">Плеер #8 <span style="font-size:6px">(KodikBD)</span></a>\
-                    <a onclick="showPlayer(8,\'' + obj['kinopoisk_id'] + '\')">Плеер #9 <span style="font-size:6px">(kinobest)</span></a>\
+                    <a onclick="showPlayer(8,\'' + obj['imdb_id'] + '\')">Плеер #9 <span style="font-size:6px">(kinobest)</span></a>\
                 </div>\
                 <input type="checkbox" class="show_tr" id="tr" style="display:none">\
                 <label for="tr" id="show-player" >Показать трейлер</label>\
