@@ -2,7 +2,7 @@
     "name": "NUM Releases",
     "short_name": "NUM",
     "start_url": ".",
-    "display": "minimal-ui",
+    "display": "fullscreen",
     "background_color": "#0175C2",
     "theme_color": "#FFFFFF",
     "description": "release.YouROK.ru",
