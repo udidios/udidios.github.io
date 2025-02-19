@@ -1,0 +1,1 @@
+https://releases.yourok.ru
