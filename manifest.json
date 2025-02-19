@@ -4,7 +4,7 @@
     "start_url": ".",
     "display": "minimal-ui",
     "background_color": "#0175C2",
-    "theme_color": "#0175C2",
+    "theme_color": "#FFFFFF",
     "description": "release.YouROK.ru",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
